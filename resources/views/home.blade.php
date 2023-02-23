@@ -165,7 +165,6 @@
          </div>
         </div>
     </div>
-    <command type="radio">Center</command>
 
     @include('partials.footer')
   
