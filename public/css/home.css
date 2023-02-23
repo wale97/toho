@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+body{overflow-x: hidden;line-height:1.5;font-family: 'Nunito', monospace;min-height:100vh;display: flex;flex-direction: column; flex-wrap: wrap;animation: fadeInAnimation ease 3s;animation-iteration-count: 1;animation-fill-mode: forwards;}
+@keyframes fadeInAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+*{margin:0;padding:0;box-sizing: border-box;font-family: 'Nunito';}
+a{text-decoration:none;color:#333;}
+ul{list-style: none; padding: 0;}
+
+.nav-link{
+    margin-left: 20px;
+    font-size:24px;
+}
+.firstcard{
+    border:none;
+}
+/*.all{
+    background-color: black;color:white;
+}*/
+
