@@ -165,6 +165,15 @@
          </div>
         </div>
     </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+         Minima perferendis dolorem adipisci numquam nisi voluptatum, ea quidem 
+         explicabo beatae, neque quibusdam? Accusamus atque nesciunt inventore 
+         eum aut non quas at!</div>
+      <div class="col-4"></div>
+
+    </div>
 
     @include('partials.footer')
   
