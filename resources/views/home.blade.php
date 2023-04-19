@@ -15,11 +15,11 @@
 
     @include('partials.header')
 
-    <div class="text-center mt-4 mb-4 imggroup1">
+    <div class="text-center mt-4 mb-4 imggroup1" style="margin-left:10px;margin-right:10px;">
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
-            <a class="" href="#"><img src={{asset('images/1.jfif')}} class="card-img-top" alt="..."></a>
+            <a class="" href="#"><img src={{asset('images/firstset/1.jpg')}} class="card-img-top" alt="..."></a>
             <!--<div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -28,7 +28,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <a class="" href="#"><img src={{asset('images/1.jfif')}} class="card-img-top" alt="..."></a>
+            <a class="" href="#"><img src={{asset('images/firstset/2.jpg')}} class="card-img-top" alt="..."></a>
             <!--<div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -37,7 +37,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <a class="" href="#"><img src={{asset('images/1.jfif')}} class="card-img-top" alt="..."></a>
+            <a class="" href="#"><img src={{asset('images/firstset/3.jpg')}} class="card-img-top" alt="..."></a>
             <!--<div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -46,7 +46,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <a class="" href="#"><img src={{asset('images/1.jfif')}} class="card-img-top" alt="..."></a>
+            <a class="" href="#"><img src={{asset('images/firstset/4.jpg')}} class="card-img-top" alt="..."></a>
             <!--<div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -85,7 +85,7 @@
 
     <div class="container">
       <!-- Gallery -->
-      <div class="row">
+      <!--<div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
             class="w-100 shadow-1-strong rounded mb-4"
@@ -110,6 +110,32 @@
           class="w-100 shadow-1-strong rounded mb-4"
           alt="Yosemite National Park"/>
         </div>
+      </div>-->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img src="{{asset('images/3.jpg')}}"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"/>
+          <img src="{{asset('images/4.jpg')}}"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Wintry Mountain Landscape"/>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="{{asset('images/5.jpg')}}"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Mountains in the Clouds"/>
+          <img src="{{asset('images/6.jpg')}}"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"/>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="{{asset('images/7.jpg')}}"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Waves at Sea"/>
+          <img src="{{asset('images/8.jpg')}}"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Yosemite National Park"/>
+        </div>
       </div>
       <!-- Gallery -->
     </div>
@@ -118,7 +144,7 @@
           <div class="el col-4">
                <div class="firstcard py-4">
                  <div class="card-header py-4">Text</div>
-                 <img src={{asset('images/1.jfif')}} class="card-img-top py-4" alt="...">
+                 <img src={{asset('images/firstset/1.jpg')}} class="card-img-top py-4" alt="...">
                  <div class="card-body py-4">
                     <h5 class="card-title py-4">Text</h5>
                     <p class="card-text py-4">Lorem ipsum dolor sit amet consectetur,
@@ -134,7 +160,7 @@
           <div class="el col-4">
                 <div class="firstcard py-4">
                   <div class="card-header py-4">Text</div>
-                  <img src={{asset('images/1.jfif')}} class="card-img-top py-4" alt="...">
+                  <img src={{asset('images/firstset/2.jpg')}} class="card-img-top py-4" alt="...">
                   <div class="card-body py-4">
                     <h5 class="card-title py-4">Text</h5>
                     <p class="card-text py-4">Lorem ipsum dolor sit amet consectetur,
@@ -150,7 +176,7 @@
           <div class="el col-4">
                <div class="firstcard py-4">
                  <div class="card-header py-4">Text</div>
-                 <img src={{asset('images/1.jfif')}} class="card-img-top py-4" alt="...">
+                 <img src={{asset('images/firstset/3.jpg')}} class="card-img-top py-4" alt="...">
                  <div class="card-body py-4">
                     <h5 class="card-title py-4">Text</h5>
                     <p class="card-text py-4">Lorem ipsum dolor sit amet consectetur,

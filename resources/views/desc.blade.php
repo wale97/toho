@@ -14,8 +14,13 @@
   <div class="">
 
     @include('partials.header')
+<div class="container text-center">
+  <div class="row py-5"> 
+    <div class="col-8" style="background-color:antiquewhite;">col</div>
+    <div class="col-4" style="background-color:pink;">col</div>
+  </div>
+</div>
 
-    
 
     @include('partials.footer')
   </div>
