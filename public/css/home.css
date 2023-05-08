@@ -18,4 +18,9 @@ ul{list-style: none; padding: 0;}
 /*.all{
     background-color: black;color:white;
 }*/
+/* Media queries*/
 
+@media only screen and (max-width: 480px)
+{
+
+}

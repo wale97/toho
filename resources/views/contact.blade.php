@@ -11,7 +11,7 @@
 
 </head>
 <body>
-  <div class="">
+  <div class="bg-dark text-white">
 
     @include('partials.header')
 

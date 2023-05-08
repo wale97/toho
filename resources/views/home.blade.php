@@ -15,7 +15,7 @@
 
     @include('partials.header')
 
-    <div class="text-center mt-4 mb-4 imggroup1" style="margin-left:10px;margin-right:10px;">
+    <div class="text-center mt-4 mb-4 imggroup1" style="margin-left:20px;margin-right:20px;">
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
           <div class="card">
@@ -59,7 +59,7 @@
       <div class="row">
         <div class="col">
           <h3 class="who text-center m-4">LAC TOHO</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
+          <h2>Visitez le Lac Toho</h2>
         </div>
       </div
       <div class="container">
@@ -111,6 +111,7 @@
           alt="Yosemite National Park"/>
         </div>
       </div>-->
+      <!--
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <img src="{{asset('images/3.jpg')}}"
@@ -139,6 +140,7 @@
       </div>
       <!-- Gallery -->
     </div>
+    <!--
     <div class="container bg-dark text-white">
         <div class="row text-center">
           <div class="el col-4">
@@ -200,7 +202,99 @@
       <div class="col-4"></div>
 
     </div>
+  -->
+<div class="container con1">
+  <div class="row d-flex align-items-center row row-cols-1 row-cols-md-2">
+      <div class="col">
+        <p>
+          L’histoire raconte, dans les années 1966, la légende de l’apparition mystérieuse 
+          de l’hippopotame dans les lacs Ahémé et Toho. Une belle histoire que les guides touristiques 
+          à Possotomè racontent bien aux touristes.
+          A l’époque, les lacs Ahémé et Toho étaient encombrés de hautes herbes et dépourvus de poissons. 
+          Pour remédier à ces difficultés, les riverains de ces plans d’eau font appel à un vieux tradipraticien
+           du nom de Assou DHENON venu de Houin avec une bouteille remplie d’eau et contenant du poisson. 
+           Puis, il fit des cérémonies et vida le contenu de la bouteille dans le lac.
+        </p>
+      </div>
+      <div class="col">
+        <img src={{asset('images/3.jpg')}} class="card-img-top py-4" alt="...">
+      </div>
+  </div>
+</div>
 
+<div class="container con2">
+  <div class="row d-flex align-items-center">
+      <div class="col">
+        <img src={{asset('images/4.jpg')}} class="card-img-top py-4" alt="...">
+      </div>
+      <div class="col">
+        <p>
+          Quelques jours plus tard, le lac fut rempli de poissons. Mais l’encombrement par de hautes herbes empêche 
+          les populations de pêcher surtout avec du filet.
+          De nouveau, les habitants font appel au vieux Assou DHENON pour les aider. Avec un bœuf rouge, 
+          il fit des cérémonies de sacrifices. Le tradipraticien a prédit, alors, qu’un animal apparaitra 
+          pour brouter les hautes herbes qui encombraient le lac. C’est ainsi qu’est apparu le mystique hippopotame 
+          qui parcourait le lac Ahémé, le lac Toho et le fleuve Mono.
+          Avec la poussée démographique, ce grand mammifère des zones humides du Sud-Bénin, est confronté au problème de
+          la fragmentation de son habitat. 
+        </p>
+      </div>
+  </div>
+</div>
+
+<div class="container con3">
+  <div class="row d-flex align-items-center">
+      <div class="col">
+        <p>
+          Le braconnage des hippopotames est le principal danger qui a menacé l’espèce 
+          dans le paysage du delta mono. Au total, 27 hippopotames auraient été abattus de 1972 à 2002 selon Amoussou G., 2002.
+          Dans la nuit du 4 septembre 2019, ce seul spécimen rescapé est retrouvé mort dans le village de Kotovi, Commune 
+          d’Allada. D’après les informations, la piste d’une mort naturelle est évoquée mais les enquêtes continuent. 
+          Un hippopotame a une espérance de vie de 40 à 50 ans. Selon certains témoignages et d’après l’histoire mystérieuse, 
+          cet hippopotame a même vécu au-delà de son espérance de vie.
+        </p>
+      </div>
+      <div class="col">
+        <img src={{asset('images/5.jpg')}} class="card-img-top py-4" alt="...">
+      </div>
+  </div>
+</div>
+
+<div class="container con4">
+  <div class="row d-flex align-items-center">
+      <div class="col">
+        <img src={{asset('images/6.jpg')}} class="card-img-top py-4" alt="...">
+      </div>
+      <div class="col">
+        <p>Aussitôt informé, les autorités communales d’Allada et de Bopa, les organisations de la société civile
+           telles que Eco-Benin, Nature Tropicale, ADED etc. sont entrées dans une démarche de la mise en place 
+           d’un écomusée pour sauvegarder cette relique pour la promotion du tourisme dans ces localités. 
+           Le spécimen a été déplacé à Cotonou au siège de l’ONG Nature Tropicale ce vendredi 6 septembre 2019. 
+           Empailler un tel animal pesant plus d’une tonne nécessite de grands moyens matériels et financiers. 
+           Le processus d’empaillage pourrait durer un an. Une souscription volontaire est lancée et la contribution 
+           de tous est vivement souhaitée.
+        </p>
+      </div>
+
+  </div>
+</div>
+
+<div class="container con5">
+  <div class="row d-flex align-items-center">
+      <div class="col">
+        <p>
+          Facilement observables les matins entre 6 h et 8 h, les soirs entre 17 h 30 mn et 19 h 30 mn,
+           les hippopotames occupent une place de choix dans la culture et l’alimentation des populations
+            locales de la zone d’étude. D’après les données du Bulletin de la Recherche Agronomique du Benin
+             – Nº53-Septembre 2006, 2/3 des populations ont reconnu l’attrait touristique de l’animal, sans lequel
+              elles l’auraient déjà chassé de leur localité.
+        </p>
+      </div>
+      <div class="col">
+        <img src={{asset('images/7.jpg')}} class="card-img-top py-4" alt="...">
+      </div>
+  </div>
+</div>
     @include('partials.footer')
   
     

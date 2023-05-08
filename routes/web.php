@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DescController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DecouvrirController;
 
@@ -27,6 +28,16 @@ Route::get('decouvrir', [DecouvrirController::class, 'decouverte'])->name('decou
 Route::get('contact', [ContactController::class, 'contact'])->name('contact');
 
 Route::get('desc', [DescController::class, 'description'])->name('desc');
+
+Route::get('Rosa', [PagesController::class, 'rosa'])->name('rosa');
+
+Route::get('Ava', [PagesController::class, 'ava'])->name('ava');
+
+Route::get('RivesToho', [PagesController::class, 'rives'])->name('rives');
+
+Route::get('VillaAphro', [PagesController::class, 'villa'])->name('villa');
+
+
 
 //Article's Page
 /*Route::get('decouvrir', [DecouvrirController::class, 'voir'])->name('voir');
