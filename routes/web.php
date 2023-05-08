@@ -37,6 +37,8 @@ Route::get('RivesToho', [PagesController::class, 'rives'])->name('rives');
 
 Route::get('VillaAphro', [PagesController::class, 'villa'])->name('villa');
 
+Route::get('Adj', [PagesController::class, 'adj'])->name('adj');
+
 
 
 //Article's Page

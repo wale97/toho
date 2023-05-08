@@ -206,7 +206,7 @@
 <div class="container con1">
   <div class="row d-flex align-items-center row row-cols-1 row-cols-md-2">
       <div class="col">
-        <p>
+        <p class="lh-lg">
           L’histoire raconte, dans les années 1966, la légende de l’apparition mystérieuse 
           de l’hippopotame dans les lacs Ahémé et Toho. Une belle histoire que les guides touristiques 
           à Possotomè racontent bien aux touristes.
@@ -217,18 +217,18 @@
         </p>
       </div>
       <div class="col">
-        <img src={{asset('images/3.jpg')}} class="card-img-top py-4" alt="...">
+        <img src={{asset('images/3.jpg')}} class="card-img-top py-4 img1" alt="...">
       </div>
   </div>
 </div>
 
 <div class="container con2">
-  <div class="row d-flex align-items-center">
+  <div class="row d-flex align-items-center row row-cols-1 row-cols-md-2">
       <div class="col">
-        <img src={{asset('images/4.jpg')}} class="card-img-top py-4" alt="...">
+        <img src={{asset('images/4.jpg')}} class="card-img-top py-4 img2" alt="...">
       </div>
       <div class="col">
-        <p>
+        <p class="lh-lg">
           Quelques jours plus tard, le lac fut rempli de poissons. Mais l’encombrement par de hautes herbes empêche 
           les populations de pêcher surtout avec du filet.
           De nouveau, les habitants font appel au vieux Assou DHENON pour les aider. Avec un bœuf rouge, 
@@ -243,9 +243,9 @@
 </div>
 
 <div class="container con3">
-  <div class="row d-flex align-items-center">
+  <div class="row d-flex align-items-center row row-cols-1 row-cols-md-2 img3">
       <div class="col">
-        <p>
+        <p class="lh-lg">
           Le braconnage des hippopotames est le principal danger qui a menacé l’espèce 
           dans le paysage du delta mono. Au total, 27 hippopotames auraient été abattus de 1972 à 2002 selon Amoussou G., 2002.
           Dans la nuit du 4 septembre 2019, ce seul spécimen rescapé est retrouvé mort dans le village de Kotovi, Commune 
@@ -261,12 +261,12 @@
 </div>
 
 <div class="container con4">
-  <div class="row d-flex align-items-center">
+  <div class="row d-flex align-items-center row row-cols-1 row-cols-md-2">
       <div class="col">
-        <img src={{asset('images/6.jpg')}} class="card-img-top py-4" alt="...">
+        <img src={{asset('images/6.jpg')}} class="card-img-top py-4 img4" alt="...">
       </div>
       <div class="col">
-        <p>Aussitôt informé, les autorités communales d’Allada et de Bopa, les organisations de la société civile
+        <p class="lh-lg">Aussitôt informé, les autorités communales d’Allada et de Bopa, les organisations de la société civile
            telles que Eco-Benin, Nature Tropicale, ADED etc. sont entrées dans une démarche de la mise en place 
            d’un écomusée pour sauvegarder cette relique pour la promotion du tourisme dans ces localités. 
            Le spécimen a été déplacé à Cotonou au siège de l’ONG Nature Tropicale ce vendredi 6 septembre 2019. 
@@ -280,9 +280,9 @@
 </div>
 
 <div class="container con5">
-  <div class="row d-flex align-items-center">
+  <div class="row d-flex align-items-center row row-cols-1 row-cols-md-2">
       <div class="col">
-        <p>
+        <p class="lh-lg">
           Facilement observables les matins entre 6 h et 8 h, les soirs entre 17 h 30 mn et 19 h 30 mn,
            les hippopotames occupent une place de choix dans la culture et l’alimentation des populations
             locales de la zone d’étude. D’après les données du Bulletin de la Recherche Agronomique du Benin
@@ -291,7 +291,7 @@
         </p>
       </div>
       <div class="col">
-        <img src={{asset('images/7.jpg')}} class="card-img-top py-4" alt="...">
+        <img src={{asset('images/7.jpg')}} class="card-img-top py-4 img5" alt="...">
       </div>
   </div>
 </div>

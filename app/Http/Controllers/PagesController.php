@@ -31,6 +31,10 @@ class PagesController extends Controller
     {
         return view ('VillaAphro');
     }
+    public function adj()
+    {
+        return view ('Adj');
+    }
     /**
      * Show the form for creating a new resource.
      *

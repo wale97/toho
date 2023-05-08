@@ -20,7 +20,32 @@ ul{list-style: none; padding: 0;}
 }*/
 /* Media queries*/
 
-@media only screen and (max-width: 480px)
+@media (max-width: 767px)
 {
+.con1{
+    /*display: flex;
+    flex-direction: column-reverse;*/
+}
+.con2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.con3{
 
+}
+.con4{
+
+}
+.con5{
+
+}
+.img2{
+    display: none;
+}
+.img4{
+    display: none;
+}
+.img5{
+    display: none;
+}
 }
